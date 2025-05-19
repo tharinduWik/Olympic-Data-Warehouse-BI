@@ -54,9 +54,3 @@ This project, developed as part of the Data Warehouse & Business Intelligence co
 ## Screenshots
 ![SSAS Cube](Screenshots/Cube.png)
 ![ETL](Screenshots/ETL.png)
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-H.M.T.W Dilshan | [LinkedIn](https://www.linkedin.com/in/yourprofile) | [Email](mailto:your.email@example.com)
