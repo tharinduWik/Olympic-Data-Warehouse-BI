@@ -1,0 +1,803 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="431a4bce-8c86-4d29-b0e3-48cbea72cb21" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Athlete</ID>
+  <Name>Athlete</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-349" scrolltop="-8473" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="11324" y="11726" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CoachType" left="8182" top="2428" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3260" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bc0c00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CoachType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="AthleteAddress" left="951" top="-7620" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3768" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80e00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_AthleteAddress" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Discipline" left="7710" top="-2530" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3916" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Discipline" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Coaches" left="759" top="2302" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3429" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000650d0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Coaches" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Country" left="7684" top="-7431" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4106" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000a1000006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Country" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Athlete" left="1287" top="-3075" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Athlete" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3888" top="3325" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="4594" height="836" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Coaches__type_id__29572725]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8182" y="3761" />
+              <point x="5875" y="3761" />
+              <point x="5875" y="3625" />
+              <point x="4188" y="3625" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4419" top="-6497" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3565" height="870" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__AthleteAd__count__4B7734FF]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7684" y="-6098" />
+              <point x="5158" y="-6098" />
+              <point x="5158" y="-5927" />
+              <point x="4719" y="-5927" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1336" top="-4732" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="1957" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Athlete__address__719CDDE7]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="3" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1735" y="-4233" />
+              <point x="1735" y="-3753" />
+              <point x="1687" y="-3753" />
+              <point x="1687" y="-3075" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3987" top="-2146" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="4023" height="1054" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Athlete__discipl__6FB49575]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7710" y="-1747" />
+              <point x="5546" y="-1747" />
+              <point x="5546" y="-1392" />
+              <point x="4287" y="-1392" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="974" top="1091" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="1217" height="1711" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Athlete__coach_u__70A8B9AE]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1373" y="2302" />
+              <point x="1373" y="1759" />
+              <point x="1891" y="1759" />
+              <point x="1891" y="1791" />
+              <point x="1687" y="1791" />
+              <point x="1687" y="1391" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-349</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8473</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>759</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7620</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2f8dccb1-6657-4c3e-9517-537deb254414">
+    <DataSourceViewID>DSV_Olympic DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="cfd40d0d-6a97-4d36-9709-72fff3798268">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d6e6c7ed-62de-45cf-864c-fef6ffabcdb0">
+      <ID>Athlete SK</ID>
+      <Name>Athlete SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e9bb29d2-4561-4ea3-a445-63dd5ef8cded">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6375513-b37e-4988-aed2-5f1361b5e523">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>AthleteSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c0deb3d6-481a-420a-9be8-24ef63713dc5">
+          <AttributeID>Coaches SK</AttributeID>
+          <Name>Coaches SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2bbf90b0-c117-4311-8761-6fcbd7aa57b9">
+          <AttributeID>Athlete Address SK</AttributeID>
+          <Name>Athlete Address SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e812a5ca-1f36-4353-8e6e-324fefd3e59b">
+          <AttributeID>Discipline SK</AttributeID>
+          <Name>Discipline SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="556b469c-467d-409b-a513-a20e4f8d3f6f">
+          <AttributeID>Alternateurl</AttributeID>
+          <Name>Alternateurl</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="495feb2b-52dc-41e6-b6e6-c76223979fe9">
+          <AttributeID>First Name</AttributeID>
+          <Name>First Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="94d61da0-5df2-4b8b-b98f-a68dcafebcfd">
+          <AttributeID>Second Name</AttributeID>
+          <Name>Second Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="996be539-2494-43af-85c6-3be8f19276c2">
+          <AttributeID>Gender</AttributeID>
+          <Name>Gender</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ab1c1b36-5e8e-4b87-bcb2-2de6fbd75aa3">
+          <AttributeID>Discipline Id</AttributeID>
+          <Name>Discipline Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0882ee58-ee56-4b09-b3ba-15e96f34ff2d">
+          <AttributeID>Coach Url</AttributeID>
+          <Name>Coach Url</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e2ab683-463f-465a-b563-cdca579c54a5">
+          <AttributeID>Address Id</AttributeID>
+          <Name>Address Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bab302b0-0712-40d0-aed1-560d3adccb6c">
+          <AttributeID>Alternatediscipline Id</AttributeID>
+          <Name>Alternatediscipline Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4265f500-acd8-4c08-89b5-8d774c0d020d">
+          <AttributeID>Discipline</AttributeID>
+          <Name>Discipline</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b3a04c95-846d-41aa-9cf4-326c35d87f5b">
+          <AttributeID>Alternatecoachurl</AttributeID>
+          <Name>Alternatecoachurl</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5731c1f7-97bc-45f8-bd48-bdd9488eb4eb">
+          <AttributeID>First Name 1</AttributeID>
+          <Name>First Name 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2734882b-3dbb-4f50-8069-676aab8c4aa5">
+          <AttributeID>Second Name 1</AttributeID>
+          <Name>Second Name 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f2a50fec-3d77-420c-81f3-bb3b2b10833b">
+          <AttributeID>Gender 1</AttributeID>
+          <Name>Gender 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bfa5320b-7137-47d8-b1c8-e732fbf974ca">
+          <AttributeID>Type Id</AttributeID>
+          <Name>Type Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eb794162-b4bf-434e-bac6-0c2b19a70dc3">
+          <AttributeID>Alternatetype Id</AttributeID>
+          <Name>Alternatetype Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c645ab68-96af-4ea7-a82a-3107a6ceb9d2">
+          <AttributeID>Coach Type</AttributeID>
+          <Name>Coach Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="04096fb0-9381-4232-a8cd-dbc5b21e4784">
+          <AttributeID>Alternateaddress Id</AttributeID>
+          <Name>Alternateaddress Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1e14d64-15ef-4391-a2e6-6a6b61e29a33">
+          <AttributeID>Url</AttributeID>
+          <Name>Url</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="34683b58-18a7-47cc-9729-43efad3980e7">
+          <AttributeID>City</AttributeID>
+          <Name>City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f595916-1fe9-46a8-9658-105914ba71b0">
+          <AttributeID>Country Code</AttributeID>
+          <Name>Country Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f18f722e-e24a-46e3-802f-3aced52eacf2">
+          <AttributeID>Alternatecountry Code</AttributeID>
+          <Name>Alternatecountry Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="289fb56c-2d42-4e2f-8d06-082ea9ec7873">
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6fcfa9d5-f28b-49e7-b754-3ae7dc7f5c5a">
+      <ID>Coaches SK</ID>
+      <Name>Coaches SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="16f70d3b-ef3d-42e3-a880-aa4ba9b43d7b">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bbe81cc-89bb-4ce6-99a5-a772b61e0506">
+            <TableID>dbo_Coaches</TableID>
+            <ColumnID>CoachesSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b9961898-ed30-4534-803e-7c48f35a6769">
+          <AttributeID>Coach Type SK</AttributeID>
+          <Name>Coach Type SK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe0cf555-ee21-4ac7-8c81-c1dc462b152f">
+      <ID>Coach Type SK</ID>
+      <Name>Coach Type SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e91c41c-4049-43fb-b552-b536962e88a5">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3117623d-6e54-49b4-9959-67fb4d76294a">
+            <TableID>dbo_CoachType</TableID>
+            <ColumnID>CoachTypeSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="89cfc1ff-5dcd-414b-af70-bcf2f37e0df6">
+      <ID>Athlete Address SK</ID>
+      <Name>Athlete Address SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="405f5356-9335-40d6-b8ac-160cc92cfd5a">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cafe13fb-51f6-423e-8941-84bdeb0feacf">
+            <TableID>dbo_AthleteAddress</TableID>
+            <ColumnID>AthleteAddressSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a96dee5b-6845-48c2-a2e1-4b901ec35623">
+          <AttributeID>Country SK</AttributeID>
+          <Name>Country SK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5aec7d60-4b4d-4e1f-8ac3-71af48f33d08">
+      <ID>Country SK</ID>
+      <Name>Country SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f4028da-5af1-40d8-ad78-452da4ff36bd">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="64802ab2-672c-4159-b56c-7eaf469fba83">
+            <TableID>dbo_Country</TableID>
+            <ColumnID>CountrySK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ecb3818-88b5-4e77-a1a9-efe2a4e3be65">
+      <ID>Discipline SK</ID>
+      <Name>Discipline SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6414232e-90b5-40b4-9d85-3316912ae118">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f82e029d-a0bb-4d89-ad9b-a8ee9980d971">
+            <TableID>dbo_Discipline</TableID>
+            <ColumnID>DisciplineSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9f7621da-4556-4ce2-a7ab-ba0694593e0d">
+      <ID>Alternateurl</ID>
+      <Name>Alternateurl</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3423fc69-fc08-4658-b598-f1d26611b73f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5c540e91-0194-4fa6-96a7-21afb4a7bb06">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>Alternateurl</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ee96647a-8dd6-4bcc-9d72-9c0f30204bdf">
+      <ID>First Name</ID>
+      <Name>First Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="370d5e84-b2c8-40b3-ac49-5653686a823a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ea0d972-37d5-47b0-b2c7-147022b039ac">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>first_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="04841136-7d0d-4c04-b872-8649e069a3ba">
+      <ID>Second Name</ID>
+      <Name>Second Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cfb3ea2c-073b-47c7-a145-3a71dc47ebb6">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22241a1b-f35f-4868-a6f4-beab8a693645">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>second_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="76d07f41-d658-42a4-aed2-f5ede3711228">
+      <ID>Gender</ID>
+      <Name>Gender</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13883f88-9e0f-4403-856d-5baa0ae9ccd3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c314e40c-1595-421a-a379-b9b8c7b3ccfa">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d943337e-a1b2-4bc5-88ef-0584274ccc4c">
+      <ID>Discipline Id</ID>
+      <Name>Discipline Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8c629acf-a893-46b6-993e-5f0a813c6751">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="caeabc8d-b224-42d9-bea2-1d1baa5565df">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>discipline_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="551e8ab2-4f2a-4210-a8f3-62666c23c02b">
+      <ID>Coach Url</ID>
+      <Name>Coach Url</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="382a91c2-0927-4f7b-ae70-3593496832a3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="72460417-dc32-47ae-a4cf-ce244e4e0f45">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>coach_url</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e93d3224-f0fe-4c65-993f-df369ab05b23">
+      <ID>Address Id</ID>
+      <Name>Address Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1fa04590-b27e-4979-b308-28bf6600354d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0055e7a-aab1-4fab-bdec-1cb817c92afa">
+            <TableID>dbo_Athlete</TableID>
+            <ColumnID>address_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8fd27b6d-fe03-4fb2-bd95-78fb2fa2f0de">
+      <ID>Alternatediscipline Id</ID>
+      <Name>Alternatediscipline Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25cd5236-45b1-4be6-a0bb-d1bc977dc393">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="026d1417-b67d-417d-8da1-8d8c7fa5e79e">
+            <TableID>dbo_Discipline</TableID>
+            <ColumnID>Alternatediscipline_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2896c6f7-93f6-44ea-9887-d5be3cc597f3">
+      <ID>Discipline</ID>
+      <Name>Discipline</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5768adec-115c-4f67-8d0d-b01416075f51">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ba5efd2-a54e-45ef-94dc-8763963dcf90">
+            <TableID>dbo_Discipline</TableID>
+            <ColumnID>discipline</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2f9ad14c-e539-47e1-9e64-6a4a30868b67">
+      <ID>Alternatecoachurl</ID>
+      <Name>Alternatecoachurl</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0dc719dd-c7c4-439b-8f4b-5f4ac539180b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a544df1-4219-49fa-bdee-98358c403775">
+            <TableID>dbo_Coaches</TableID>
+            <ColumnID>Alternatecoachurl</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a992b5a6-b0a6-42da-a169-a690445152c3">
+      <ID>First Name 1</ID>
+      <Name>First Name 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3cee71fc-b648-4846-ab0c-f1ad18f3e41d">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="178ee1fe-9e3b-4173-8e55-6976f2ab7f5b">
+            <TableID>dbo_Coaches</TableID>
+            <ColumnID>first_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6a5527b-f0e7-43b7-a385-f7297c52d7c1">
+      <ID>Second Name 1</ID>
+      <Name>Second Name 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3a15ab68-deec-4832-9fe0-d489c52cb616">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8cd3921d-8e84-46d2-b39e-2441ac328c10">
+            <TableID>dbo_Coaches</TableID>
+            <ColumnID>second_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d85529b8-36fe-42f4-ab26-76e53b407819">
+      <ID>Gender 1</ID>
+      <Name>Gender 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8fcc2538-f57b-498e-a667-868eb695b010">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4fa8671-7225-4539-b5e1-55ad238a5768">
+            <TableID>dbo_Coaches</TableID>
+            <ColumnID>gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f54ad83-a3bd-4d75-a02e-b6cbb42031c1">
+      <ID>Type Id</ID>
+      <Name>Type Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c9b2445f-78a1-43f5-97f0-c216bc217134">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d7ce060-92b1-489d-99ed-135255d12400">
+            <TableID>dbo_Coaches</TableID>
+            <ColumnID>type_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="829ce631-b0ab-4086-8521-4e9470a57dcb">
+      <ID>Alternatetype Id</ID>
+      <Name>Alternatetype Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="54fd24e7-7e4e-4c49-a8b3-b26ab6699da3">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0876a883-1eee-47ff-aea8-3fb57f53733c">
+            <TableID>dbo_CoachType</TableID>
+            <ColumnID>Alternatetype_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c4565fe8-5190-43f2-88cd-5e3712b4f798">
+      <ID>Coach Type</ID>
+      <Name>Coach Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4906b58e-c566-438f-822c-d6c8e473074b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0843dce5-a6f3-4f2f-8109-182eeae6b6c8">
+            <TableID>dbo_CoachType</TableID>
+            <ColumnID>coach_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e35ed128-53bf-46ec-aa06-10959d874519">
+      <ID>Alternateaddress Id</ID>
+      <Name>Alternateaddress Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="807ec6de-2fa1-4ad1-9ef7-d721823ae2ab">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="629a833e-1e32-43e4-9437-15a6846afe21">
+            <TableID>dbo_AthleteAddress</TableID>
+            <ColumnID>Alternateaddress_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="19a64b76-2ef6-4c33-82b9-fc190e68f5e9">
+      <ID>Url</ID>
+      <Name>Url</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6431b5ba-f9b0-4fd2-9963-fb3d60926a2c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3fdc2fa4-9572-4555-b2da-fd3ba3986b07">
+            <TableID>dbo_AthleteAddress</TableID>
+            <ColumnID>url</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b4923439-fad4-4fbb-af7a-529a9d925d58">
+      <ID>City</ID>
+      <Name>City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1e992c4-8445-4045-85a0-0e0743c93226">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d8d37a0-d236-480a-900e-347cc20fb489">
+            <TableID>dbo_AthleteAddress</TableID>
+            <ColumnID>city</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="33f4c010-b1ec-404d-abb6-41cd295cbb1a">
+      <ID>Country Code</ID>
+      <Name>Country Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58a66a5a-0265-40ea-801a-ca47ed2a4fc9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18031336-d28f-46cb-b440-736548c55611">
+            <TableID>dbo_AthleteAddress</TableID>
+            <ColumnID>country_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="049edfa0-40c2-4d4d-b43d-4c818addb5fc">
+      <ID>Alternatecountry Code</ID>
+      <Name>Alternatecountry Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="06395167-9bfc-4c64-8d62-02f294d513af">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ca9ed65c-fead-4c65-9fd3-5c585efc7536">
+            <TableID>dbo_Country</TableID>
+            <ColumnID>Alternatecountry_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8c9372df-deae-4791-b0ca-bdb91aa45536">
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29cab319-4440-4edc-be24-e124c5bb0d7e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ffc7c35-c4ed-4e5c-82d0-471993bf54cf">
+            <TableID>dbo_Country</TableID>
+            <ColumnID>country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
