@@ -1,6 +1,6 @@
-# Olympic Data Warehouse and Business Intelligence Project
+![Screenshot 2025-05-20 002314](https://github.com/user-attachments/assets/65837e2d-d3c6-4048-a344-a12228f31969)# Olympic Data Warehouse and Business Intelligence Project
 
-![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+![Power BI Dashboard](Screenshots/BiHomepage.png)
 
 ## Overview
 This project, developed as part of the Data Warehouse & Business Intelligence course (IT3021) at Sri Lanka Institute of Information Technology, demonstrates the design and implementation of a data warehouse and BI solution using Olympic Games data. The project includes a snowflake schema-based data warehouse, an SSAS cube for multidimensional analysis, OLAP operations in Excel, and interactive Power BI reports to uncover insights into Olympic medal achievements.
@@ -28,7 +28,7 @@ This project, developed as part of the Data Warehouse & Business Intelligence co
      - Slicers with cascading filters for Country and Athlete.
      - Drill-down chart with DateHierarchy (Year > Quarter > Month).
      - Drill-through report for country-specific athlete details.
-   - Link: [Power BI Report](https://app.powerbi.com/links/aGQDrv8xE?ctid=44e3cf94-19c9-4e32-96c3-14f5bf01391a&pbi_source=linkShare)
+   - Link: [Power BI Report](https://app.powerbi.com/groups/me/reports/4a778ee6-6d2e-405f-a397-a035f2677486/f2e01eb452e9a7cd8a4b?experience=power-bi)
 
 ## Repository Structure
 - `scripts/`: SQL scripts for data warehouse creation and ETL processes.
@@ -52,8 +52,8 @@ This project, developed as part of the Data Warehouse & Business Intelligence co
 - **Concepts**: Data Warehousing, Snowflake Schema, OLAP, Data Visualization
 
 ## Screenshots
-![SSAS Cube](screenshots/ssas_cube.png)
-![Excel Pivot Table](screenshots/excel_pivot.png)
+![SSAS Cube](Screenshots/Cube.png)
+![ETL](Screenshots/ETL.png)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
